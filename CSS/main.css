@@ -1,0 +1,18 @@
+body {
+  padding: 20px;
+}
+
+.gallery {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.gallery__img {
+  width: calc(90vw / 3);
+  height: 20vw;
+  object-fit: cover;
+
+  border-radius: 20px;
+}

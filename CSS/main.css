@@ -13,7 +13,7 @@ body {
   width: calc(90vw / 3);
   height: 20vw;
   object-fit: cover;
-
+  background-color: ;
   border-radius: 20px;
 }
 

@@ -8,8 +8,14 @@ const handlSubmit = e => {
   if (email.value === '' || password.value === '') {
     return alert('Всі поля мають бути заповнені!');
   }
-  console.log(`email: ${email.value}, password: ${password.value}`);
+
+  const submitValue = {
+    email: email.value,
+    password: password.value,
+  };
   e.currentTarget.reset();
+  console.log(submitValue);
+  return submitValue;
 };
 
 form.addEventListener('submit', handlSubmit);
